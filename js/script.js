@@ -14,11 +14,9 @@
 //   });
 // });
 
-$(".menu_btn").on('click',function () {
-
+$(document).on('click', '.menu_btn', function () {
   $(this).toggleClass('is-active');
   $(".burger_menu").toggleClass('is-active');
-
 });
 
 jQuery(window).on('scroll', function () {
